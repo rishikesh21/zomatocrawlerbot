@@ -7,22 +7,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1966db99-01ff-43af-b8f9-d662d4dcb2fb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/zomatocrawlerbot_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/driver/chromedriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/driver/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/driver/chromedriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/driver/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/zomatocrawler-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zomatocrawlerbot.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant-review-crawler-Baba Wins' Peranakan Cuisine.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant-review-crawler-City Hot Pot Shabu Shabu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant-review-crawler-Dragon Phoenix Classic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant-review-crawler-Fan Ji Bittergourd Fish Soup.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant-review-crawler-Golden Treasure Restaurant.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant-review-crawler-Good Year Seafood Village.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant-review-crawler-Jing.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant-review-crawler-Joyden Treasures.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant-review-crawler-Kok Sen Restaurant.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant-review-crawler-Lau Wang Claypot Delights.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant-review-crawler-Manhill Restaurant.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant-review-crawler-Ming Chung Restaurant.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant-review-crawler-New Market Teochew Braised Duck.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant-review-crawler-Noodle Place.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant-review-crawler-One Of Us Cuisine.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant-review-crawler-Riverside Grilled Fish.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant-review-crawler-Shanghai Ren Jia.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant-review-crawler-Soon Kee Fried Hokkien Prawn Noodle.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant-review-crawler-Straits Chinese Nonya Restaurant.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant-review-crawler-The Famous Kitchen.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant-review-crawler-Wok15 Kitchen.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant-review-crawler-Xi Yan Shaw.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant-review-crawler-Zai Shun Curry Fish Head Seafood.csv" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,8 +46,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+            <state relative-caret-position="450">
+              <caret line="30" column="32" lean-forward="true" selection-end-line="65" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -106,6 +114,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,8 +127,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -244,28 +252,29 @@
       <workItem from="1540460584364" duration="6321000" />
       <workItem from="1540533382809" duration="5110000" />
       <workItem from="1540797010587" duration="15000" />
-      <workItem from="1541042629099" duration="39677000" />
+      <workItem from="1541042629099" duration="39896000" />
+      <workItem from="1542083659576" duration="52000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54744000" />
+    <option name="totallyTimeSpent" value="55015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="SBT Console" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.328877" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.1953125" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37299466" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37299466" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -275,14 +284,15 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39939025" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39939025" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.328877" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,13 +302,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -306,9 +320,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -316,9 +327,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="20" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -333,9 +341,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -350,9 +355,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="19" column="79" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -363,9 +365,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="666">
           <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -373,9 +372,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="727">
           <caret line="49" column="47" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -383,16 +379,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="89" column="62" selection-start-line="89" selection-start-column="62" selection-end-line="89" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        <state relative-caret-position="450">
+          <caret line="30" column="32" lean-forward="true" selection-end-line="65" selection-end-column="10" />
         </state>
       </provider>
     </entry>
