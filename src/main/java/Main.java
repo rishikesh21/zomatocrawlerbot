@@ -15,19 +15,19 @@ import java.util.stream.Collectors;
 // korean 13
 // western 39
 // japanese 47
-// Indonesian 10
+// indonesian 10
 public class Main {
     public static void main(String[] args) throws IOException {
 
-        String cuisine="chinese";
-        int page=4;
+        String cuisine="indonesian";
+        int page=10;
         // Load the web driver for windows
         System.setProperty("webdriver.chrome.driver", "/Users/mac/IntelIjPrograms/zomatocrawlerbot/src/main/resources/driver/chromedriver");
         // Initialize the chrome driver instance
         ChromeDriver driver = new ChromeDriver();
         // Wait until the page loads or the timeout is passed
         driver.manage().timeouts().implicitlyWait(10000, TimeUnit.MILLISECONDS);
-        BufferedWriter writer = new BufferedWriter(new FileWriter("restaurant-zomato-crawler.csv"));
+        BufferedWriter writer = new BufferedWriter(new FileWriter("restaurant-zomato-crawler_7.csv"));
         writer.write("\"restaurant_name\",\"rating\",\"address\",\"cuisine\",\"postal_code\"");
         writer.newLine();
 
@@ -35,8 +35,8 @@ public class Main {
             driver.get("https://www.zomato.com/singapore/restaurants/"+cuisine+"?page="+i);
 
             driver.findElementsByCssSelector("div.search-snippet-card").forEach(contentElement -> {
-                String titleText = contentElement.findElement(By.cssSelector("a.result-title")).getText();
-                String ratingText = contentElement.findElement(By.cssSelector("div.rating-popup")).getText();
+                String titleText = contentElement.findElement(By.cssSelector("a.result-title")).getText().replace(",","/");
+                String ratingText = contentElement.findElement(By.cssSelector("div.rating-popup")).getText().replace("-","0");
                 String addressText = contentElement.findElement(By.cssSelector("div.search-result-address")).getText().replace(",",";");
                 List<String> foodItems = contentElement
                         .findElement(By.cssSelector("span.pl0"))
@@ -45,9 +45,9 @@ public class Main {
                         .map(a -> a.getText())
                         .collect(Collectors.toList());
                 //foodItems.forEach(System.out::println);
-                String postal_code=addressText.split(" ")[(addressText.split(" ").length) -1 ];
+                String postal_code=addressText.split(" ")[(addressText.split(" ").length) -1 ].replace(",",":");
 
-                String str=titleText + "," + ratingText + "," + addressText + "," + foodItems.toString()+","+postal_code;
+                String str=titleText + "," + ratingText + "," + addressText + "," + foodItems.get(0).toString()+","+postal_code;
 
                 try {
 

@@ -1,0 +1,8 @@
+library(data.table)
+library(lubridate)
+library(dplyr)
+setwd("/Users/mac/IntelIjPrograms/zomatocrawlerbot/")
+files  <- list.files(pattern = '*.csv')
+tables <- lapply(files, read.csv, header = TRUE)
+combined.df <- do.call(rbind , tables)
+fwrite(combined.df,file="/Users/mac/IntelIjPrograms/zomatocrawlerbot/zomatocrawlerbot_results.csv",sep=',',col.names = TRUE,row.names = FALSE)
