@@ -3,25 +3,19 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
-// chinese 223
-// indian 29
-// korean 13
-// western 39
-// japanese 47
-// indonesian 10
-// mideastern
+
 public class TripAdvisorCrawler {
     public static void main(String[] args) throws IOException {
 
         //String file = args[1];
-        String file = "RestaurantNamesList.csv";
+        String serial=args[0];
+        String file = "trip_advisor_"+serial+".csv";
 
         List<String> content = new ArrayList<>();
 
@@ -36,10 +30,10 @@ public class TripAdvisorCrawler {
         }
 
         for(String restaurantname:content) {
-            String cuisine = "indonesian";
+            //String cuisine = "indonesian";
             int page = 10;
             // Load the web driver for windows
-            System.setProperty("webdriver.chrome.driver", "/Users/mac/IntelIjPrograms/zomatocrawlerbot/src/main/resources/driver/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
             //System.setProperty("webdriver.chrome.driver", args[0]);
 
             // Initialize the chrome driver instance
@@ -48,7 +42,7 @@ public class TripAdvisorCrawler {
             driver.manage().timeouts().implicitlyWait(10000, TimeUnit.MILLISECONDS);
 //        String restaurantname="Summer Pavilion";
 
-            BufferedWriter writer = new BufferedWriter(new FileWriter("restaurant-review-crawler-" + restaurantname + ".csv"));
+            BufferedWriter writer = new BufferedWriter(new FileWriter("data/restaurant-review-crawler-" + restaurantname + ".csv"));
             writer.write("\"restaurant_name\",\"title\",\"description\",\"date\",\"rating\",\"reviewer_destination\",\"restaurant_price\",\"ranking\"");
             writer.newLine();
             String GlobalURL = "";
